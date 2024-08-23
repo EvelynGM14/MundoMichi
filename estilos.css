@@ -149,3 +149,34 @@ footer {
 footer p {
     margin: 0;
 }
+
+.img-texto {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.img {
+    max-width: 300px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.img-texto-body {
+    max-width: 600px;
+}
+
+.img-texto-body h3 {
+    margin-top: 0;
+    font-size: 25px;
+    color: black;
+    padding: 17px;
+}
+
+.img-texto-body p {
+    font-size: 20px;
+    color: rgb(88, 12, 90);
+    line-height: 1.5;
+    text-align: left;
+    padding: 17px;
+}
