@@ -1,5 +1,7 @@
 body {
     background-color: rgb(168, 144, 190);
+    padding: 0px;
+    width: 100%;
 }
 
 header {
@@ -8,6 +10,7 @@ header {
     font-size: 20px;
     font-family: fantasy;
     text-align: center;
+
 }
 
 main {
@@ -28,7 +31,35 @@ nav ul li {
     margin: 0 20px;
 }
 
-miau1 {
-    font-size: 20px;
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
 }
 
+.search-box {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin-right: 17px;
+    background-color: rgb(203, 197, 210);
+    color: purple;
+    font-family: fantasy;
+    border-color: rgb(105, 24, 124);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 17px;
+}
+
+.search-button {
+    padding: 10px;
+    border: none;
+    border-radius: 17px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: monospace;
+
+}
