@@ -1,7 +1,13 @@
 body {
     background-color: rgb(168, 144, 190);
-    padding: 0px;
+    padding: 0;
     width: 100%;
+    margin: 0;
+}
+
+.miau {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
@@ -10,35 +16,47 @@ header {
     font-size: 20px;
     font-family: fantasy;
     text-align: center;
+    padding: 1px 0;
+}
 
+header h1 {
+    margin: 0;
+    text-align: center;
 }
 
 main {
     text-align: center;
     font-size: 13px;
     font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 35px;
 }
 
-.search-container {
+nav ul li a {
+    color: purple;
+}
+
+.busqueda {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 20px;
 }
 
-.search-box {
+.caja-busqueda {
     width: 100%;
     max-width: 200px;
     padding: 10px;
@@ -52,7 +70,7 @@ nav ul li {
     border-radius: 17px;
 }
 
-.search-button {
+.boton-busqueda {
     padding: 10px;
     border: none;
     border-radius: 17px;
@@ -61,5 +79,70 @@ nav ul li {
     font-size: 16px;
     cursor: pointer;
     font-family: monospace;
+}
 
+.miau2 {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.miau2 article {
+    margin-bottom: 20px;
+}
+
+.miau2 h2 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.miau2 h3 {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.miau2 img {
+    width: 800px;
+    display: block;
+    margin: 60px 0;
+}
+
+.barralat {
+    flex: 1;
+    padding-left: 30px;
+    border-left: 2px solid white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.barralat h2 {
+    margin-top: 30;
+}
+
+.barralat ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barralat ul li {
+    margin-bottom: 10px;
+}
+
+.barralat ul li a {
+    color: white;
+}
+
+footer {
+    background-color: gray;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+footer p {
+    margin: 0;
 }
