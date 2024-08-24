@@ -20,7 +20,6 @@ header {
 }
 
 header h1 {
-    margin: 0;
     text-align: center;
 }
 
@@ -29,8 +28,13 @@ main {
     font-size: 13px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px;
 
+}
+
+mark {
+    background-color: rgb(145, 54, 145);
+    border-radius: 4px;
 }
 
 nav ul {
@@ -98,16 +102,23 @@ nav ul li a {
 }
 
 .miau2 h3 {
-    margin-top: 0px;
     text-align: left;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
+    line-height: 1.7;
+}
+
+.miau2 p {
+    text-align: left;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    line-height: 1.7;
 }
 
 .miau2 img {
     width: 800px;
     display: block;
-    margin: 60px 0;
+    margin: 40px 0;
 }
 
 aside.barralat {
@@ -153,30 +164,31 @@ footer p {
 .img-texto {
     display: flex;
     align-items: flex-start;
-    margin: 20px 0;
+    gap: 20px;
 }
 
 .img {
-    max-width: 300px;
-    margin-right: 20px;
-    border-radius: 15px;
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 45px;
 }
 
 .img-texto-body {
-    max-width: 600px;
+    max-width: 450px;
 }
 
 .img-texto-body h3 {
-    margin-top: 0;
     font-size: 25px;
     color: black;
     padding: 17px;
+    line-height: 2;
 }
 
 .img-texto-body p {
     font-size: 20px;
     color: rgb(88, 12, 90);
-    line-height: 1.5;
+    line-height: 1.7;
     text-align: left;
     padding: 17px;
 }
