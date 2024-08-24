@@ -178,6 +178,11 @@ aside.barralat p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+aside.barralat iframe {
+    display: block;
+    margin-bottom: 26px;
+}
+
 footer {
     background-color: gray;
     padding: 10px 0;
