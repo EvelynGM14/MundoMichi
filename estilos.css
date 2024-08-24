@@ -173,6 +173,11 @@ aside.barralat a {
     margin-bottom: 26px;
 }
 
+aside.barralat p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 footer {
     background-color: gray;
     padding: 10px 0;
@@ -206,13 +211,15 @@ footer p {
     font-size: 25px;
     color: black;
     padding: 17px;
-    line-height: 2;
+    margin-bottom: 0px;
 }
 
 .img-texto-body p {
     font-size: 20px;
     color: rgb(88, 12, 90);
-    line-height: 1.7;
-    text-align: left;
+    line-height: 1.4;
+    text-align: justify;
     padding: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
