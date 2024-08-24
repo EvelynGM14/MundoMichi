@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+.ali {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     background-color: black;
     color:blueviolet;
@@ -227,4 +232,57 @@ footer p {
     padding: 17px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.ali article{
+    margin-bottom: 20px;
+}
+
+.ali h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.ali p {
+    text-align: justify;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    line-height: 1.7;
+}
+
+.img-texto-ali {
+    display: flex;
+    gap: 20px;
+}
+
+.img-texto-body-ali {
+    max-width: 100%;
+    text-align: justify;
+}
+
+.img-texto-body-ali h3 {
+    font-size: 25px;
+    color: black;
+    padding: 17px;
+    margin-bottom: 0px;
+}
+
+.img-texto-body-ali p {
+    font-size: 17px;
+    color: rgb(88, 12, 90);
+    line-height: 1.4;
+    text-align: justify;
+    padding: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img-ali{
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 45px;
+    margin-top: 40px;
 }
