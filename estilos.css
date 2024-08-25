@@ -331,3 +331,19 @@ video {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+iframe {
+    width: 450px;
+    height: 300px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img-minino {
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
