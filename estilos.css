@@ -117,14 +117,16 @@ nav ul li a {
     text-align: justify;
     font-size: 20px;
     font-family:'Times New Roman';
-    line-height: 1.7;
+    line-height: 1.4;
     max-width: 800px;
 }
 
 .miau2 img {
     width: 800px;
+    height: 400px;
     display: block;
-    margin: 40px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 17px;
 }
 
@@ -349,4 +351,20 @@ iframe {
     border-radius: 40px;
     margin-top: 5px;
     margin-bottom: 30px;
+}
+
+.comparaciones dt{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(91, 10, 46);
+}
+
+.comparaciones dd{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
