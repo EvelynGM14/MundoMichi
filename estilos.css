@@ -285,4 +285,18 @@ footer p {
     object-fit: cover;
     border-radius: 45px;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-texto-body-ali ul li {
+    text-align: justify;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.4;
+    max-width: 600px;
+    color: rgb(137, 19, 46);
+}
+
+.sin-punto {
+    list-style-type: none;
 }
