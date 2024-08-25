@@ -309,3 +309,25 @@ aside.alim h4{
     color: rgb(174, 142, 173);
     padding: 20px;
 }
+
+.embed-alim {
+    display: flex;
+    gap: 50px;
+    padding-left: 30px;
+}
+
+embed {
+    width: 450px;
+    height: 300px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 450px;
+    height: 300px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
