@@ -300,3 +300,12 @@ footer p {
 .sin-punto {
     list-style-type: none;
 }
+
+aside.alim h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(32, 0, 35);
+    color: rgb(174, 142, 173);
+    padding: 20px;
+}
