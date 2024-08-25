@@ -193,6 +193,11 @@ aside.barralat iframe {
     height: 215px;
 }
 
+aside.barralat pre {
+    font-weight: bold;
+    font-size: 14px;
+}
+
 footer {
     background-color: gray;
     padding: 10px 0;
