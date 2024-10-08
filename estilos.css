@@ -373,3 +373,57 @@ iframe {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+.formulario-adopcion {
+    margin-top: 20px;
+}
+
+.formulario-adopcion h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+.formulario {
+    background-color: rgb(130, 61, 134);
+    padding: 17px;
+    border-radius: 26px;
+    font-size: 17px;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(203, 197, 210);
+    color: purple;
+    font-family: fantasy;
+    border-color: rgb(105, 24, 124);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 17px;
+}
+
+.boton {
+    background-color: purple; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 17px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #df0dcd;
+}
+
+fieldset {
+    border: 5px solid #a890a5;
+    padding: 17px;
+}
+
+legend {
+    font-weight: bold;
+}

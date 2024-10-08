@@ -67,6 +67,52 @@
             </div>
             <hr>
             <img src="img/AdoptaNoCompres.jpg" alt="Adopta No Compres">
+            <hr>
+
+            <section class="formulario-adopcion">
+                <i>
+                    <h2>Formulario de Adopción de Gatitos</h2>
+                </i>
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Información del Adoptante</legend>
+            
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" class="input" placeholder="Ingresa tu nombre completo" required><br><br>
+            
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" class="input" placeholder="Ingresa tu número de teléfono" required><br><br>
+            
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" class="input" placeholder="Ingresa tu correo electrónico" required><br><br>
+            
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" class="input" placeholder="Ingresa tu dirección" required><br><br>
+            
+                        <label for="tipo_vivienda">Tipo de vivienda:</label>
+                        <select id="tipo_vivienda" name="tipo_vivienda" class="input" required>
+                            <option value="casa">Casa</option>
+                            <option value="departamento">Departamento</option>
+                            <option value="otro">Otro</option>
+                        </select><br><br>
+            
+                        <label for="mascotas_actuales">¿Tienes mascotas actualmente?</label>
+                        <input type="radio" id="mascotas_si" name="mascotas_actuales" value="si" required>
+                        <label for="mascotas_si">Sí</label>
+                        <input type="radio" id="mascotas_no" name="mascotas_actuales" value="no" required>
+                        <label for="mascotas_no">No</label><br><br>
+            
+                        <label for="experiencia">¿Qué experiencia tienes con mascotas?</label><br>
+                        <textarea id="experiencia" name="experiencia" class="textarea" rows="4" cols="50" placeholder="Describe tu experiencia con mascotas..."></textarea><br><br>
+            
+                        <label for="razon_adopcion">¿Por qué deseas adoptar un gatito?</label><br>
+                        <textarea id="razon_adopcion" name="razon_adopcion" class="textarea" rows="4" cols="50" placeholder="Cuéntanos tus motivos para adoptar..."></textarea><br><br>
+            
+                        <button type="submit" class="boton">Enviar Solicitud de Adopción</button>
+                    </fieldset>
+                </form>
+            </section>
+            
         </section>
         <aside class="barralat">
             <h2><i>Conoce más</i></h2>
