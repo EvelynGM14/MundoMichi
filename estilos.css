@@ -90,6 +90,10 @@ nav ul li a {
     font-family: monospace;
 }
 
+.boton-busqueda:hover {
+    background-color: #df0dcd;
+}
+
 .miau2 {
     flex: 3;
     padding-right: 20px;
